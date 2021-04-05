@@ -65,7 +65,6 @@ body {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
   gap: 30px;
 }
 
@@ -632,7 +631,8 @@ button:focus {
   background: var(--content-color);
 }
 
-.social-icon-link.team-icon:hover svg {
+.social-icon-link.team-icon:hover svg,
+.social-icon-link.team-icon:focus svg {
   fill: var(--content-color);
 }
 
